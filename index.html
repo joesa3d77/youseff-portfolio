@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yousef Maher — Flutter Developer</title>
+<meta name="description" content="Yousef Maher, Flutter developer, personal portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="#home" class="logo">Y.M</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Get In Touch</a></li>
+    </ul>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode" aria-pressed="false">
+      <span class="theme-icon" aria-hidden="true">🌙</span>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HOME -->
+  <section id="home" class="section hero" aria-labelledby="home-title">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Welcome</p>
+        <h1 id="home-title">Yousef Maher</h1>
+        <p class="hero-role">Flutter Developer <span class="highlight">|</span> also working with TypeScript</p>
+        <p class="hero-bio">
+          A mobile app developer passionate about building smooth interfaces and great user
+          experiences with Flutter, backed by a solid grasp of TypeScript for front-end work.
+          I love turning ideas into real, well-crafted apps that put the user first.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/cv/Yousef-Maher-CV.pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img src="assets/profile.png" alt="Portrait of Yousef Maher" class="hero-photo" width="360" height="360">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="container">
+      <h2 id="about-title" class="section-title">About Me</h2>
+      <p class="section-text">
+        I'm Yousef, a mobile app developer who got into programming out of genuine curiosity
+        about how the apps we use every day are built. I focus on writing clean, maintainable
+        code, and I always keep the user experience at the center of every technical decision.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section alt" aria-labelledby="education-title">
+    <div class="container">
+      <h2 id="education-title" class="section-title">Education</h2>
+      <div class="card">
+        <h3>B.Sc. in Computer Science</h3>
+        <p class="card-meta">Focus: Software Engineering &amp; App Development</p>
+        <p>
+          In-depth study of data structures, algorithms, software engineering, and databases,
+          with a capstone project centered on building a modern mobile application.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section" aria-labelledby="experience-title">
+    <div class="container">
+      <h2 id="experience-title" class="section-title">Experience</h2>
+      <div class="card">
+        <h3>Flutter Developer — Entry Level</h3>
+        <p class="card-meta">Mobile App Development</p>
+        <p>
+          I've worked on building mobile apps with Flutter and Dart — from designing UIs to
+          wiring them up to APIs and handling state management. I'm always looking to learn
+          and apply best practices on every new project.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 id="skills-title" class="section-title">Skills</h2>
+      <ul class="badge-list">
+        <li class="badge">Flutter</li>
+        <li class="badge">Dart</li>
+        <li class="badge">TypeScript</li>
+        <li class="badge">Firebase</li>
+        <li class="badge">REST APIs</li>
+        <li class="badge">Git &amp; GitHub</li>
+        <li class="badge">UI/UX Basics</li>
+        <li class="badge">State Management</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section" aria-labelledby="projects-title">
+    <div class="container">
+      <h2 id="projects-title" class="section-title">Projects</h2>
+      <div class="grid-cards">
+
+        <article class="card project-card">
+          <img src="assets/todo.svg" alt="To-Do app illustration" class="project-img">
+          <h3>To-Do App</h3>
+          <p>A task management app with add, edit, and delete functionality, backed by local storage.</p>
+          <p class="card-meta">Flutter · Provider · SQLite</p>
+        </article>
+
+        <article class="card project-card">
+          <img src="assets/news.svg" alt="News app illustration" class="project-img">
+          <h3>News App</h3>
+          <p>An app that pulls the latest headlines from multiple sources via an external API, with search and category filters.</p>
+          <p class="card-meta">Flutter · REST API · HTTP</p>
+        </article>
+
+        <article class="card project-card">
+          <img src="assets/weather.svg" alt="Weather app illustration" class="project-img">
+          <h3>Weather App</h3>
+          <p>Shows current conditions and upcoming forecasts based on the user's location.</p>
+          <p class="card-meta">Flutter · Geolocation · Weather API</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section alt" aria-labelledby="testimonials-title">
+    <div class="container">
+      <h2 id="testimonials-title" class="section-title">Testimonials</h2>
+      <div class="grid-cards">
+        <blockquote class="card testimonial">
+          <p>"Yousef is very professional about deadlines, and delivered the app at high quality, faster than expected."</p>
+          <footer>— Sara Ahmed, Startup Founder</footer>
+        </blockquote>
+        <blockquote class="card testimonial">
+          <p>"Great communication and a sharp understanding of our requirements — the result was a smooth, easy-to-use app."</p>
+          <footer>— Mohamed Al-Otaibi, Product Manager</footer>
+        </blockquote>
+        <blockquote class="card testimonial">
+          <p>"Someone who's committed and pays attention to the small details that make a big difference in user experience."</p>
+          <footer>— Lina Hassan, UI/UX Designer</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section" aria-labelledby="services-title">
+    <div class="container">
+      <h2 id="services-title" class="section-title">Services</h2>
+      <div class="services-list">
+        <a href="#contact" class="btn btn-service">Flutter App Development</a>
+        <a href="#contact" class="btn btn-service">API Integration</a>
+        <a href="#contact" class="btn btn-service">Existing App Maintenance</a>
+        <a href="#contact" class="btn btn-service">Quick Technical Consulting</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title" class="section-title">Get In Touch</h2>
+      <p class="section-text">I'd love to hear about your idea or your next project.</p>
+      <div class="contact-actions">
+        <a class="btn btn-whatsapp" href="https://wa.me/20XXXXXXXXXX" target="_blank" rel="noopener noreferrer">
+          Message on WhatsApp
+        </a>
+        <a class="btn btn-outline" href="mailto:joesa3d777@gmail.com">
+          Email Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Yousef Maher. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
